@@ -160,7 +160,23 @@ const PleaseSetYourPublicKeyMessage = () => {
 
 const ReturnToDocsLink = () => {
   return (
-    
+    < a
+      href = "https://docs.vapi.ai"
+      objetivo = "_blank"
+      rel = "sin abridor ni referenciador"
+      estilo = { {
+        posición : "fija" ,
+        arriba : "25px" ,
+        derecha : "25px" ,
+        relleno : "5px 10px" ,
+        color : "#fff" ,
+        textDecoration : "ninguno" ,
+        radio del borde : "5px" ,
+        cajaSombra : "0 2px 5px rgba(0,0,0,0.2)" ,
+      } }
+    >
+      .
+    < / a >
   );
 };
 
